@@ -1,0 +1,66 @@
+body{
+    font-family: 'Trebuchet MS';
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    font-size: 3em;
+    position: relative;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.tooltip{
+   opacity: 0;
+   position: absolute;
+   top: 0px;
+   left: 10px;
+   color: black;
+   background-color: #222;
+   border-radius: 5px;
+   padding: 10px; 
+   font-size: 15px;
+   transition: opacity .3s,top  .5s;
+
+}
+
+
+i.wi{
+    font-size: 5em;
+    line-height: 3em;
+}
+
+.clouds{
+    background-image: url(https://www.theblockshop.com.au/images/products/RonaldMcDonaldHouse_CharityChallange.gif)
+}
+
+.clear{
+
+    background-image: url(data:image/jpeg;base64,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)
+}
+
+
+.rain{
+    background-image: url(https://jadepresents.com/wp-content/uploads/blog-rain-or-shine.jpg)
+}
+
+.snow{
+    background-image: url(https://cdn.newsapi.com.au/image/v1/f939a8b7dfc5c495582b4ca93483398d?width=1024)
+}
+
+h1:hover .tooltip{
+    top: -50px;
+    opacity: 1;
+}
