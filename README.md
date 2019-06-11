@@ -1,4 +1,4 @@
-# App-meteo
+# App-Météo
 # langage utiliser :
 - HTML 
 - CSS
