@@ -7,7 +7,7 @@ const weatherIcons = {
   "Drizzle" : "wi wi-day-sleet",
 
 }
-const ip = '88.173.165.171';
+const ip = '88.186.79.235';
 const access_key = '12a309b811b38ccf858839590a5f371a'; 
 
 function capitalize(str){
