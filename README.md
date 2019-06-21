@@ -1,18 +1,15 @@
 # App-Météo
 # langage utiliser :
-- HTML 
-- CSS
-- JAVASCRIPT
-- API --> http://api.ipstack.com / http://api.openweathermap.org / https://api.ipify.org 
+- html
+- css
+- javascrippt
+- api --> http://api.ipstack.com / http://api.openweathermap.org / https://api.ipify.org 
 - JSON 
  
  # FONCTIONEMENT DE L'APPLICATION : 
- - METEO DU JOUR FONCTIONEMENT DIRECTEMENT AVEC VOTRE ADRESSE IP DE GEOLOCALISATION 
+- météo du jour fonctione directement avec votre adresse ip de géolocalisation 
 
- # NOTE : 
-- JE N'EST PAS TROUVER POUR LOCALISER VOTRE VILLE ÉXACTEMENT AVEC IP 
-
- # TITULAIRE DE L'APPLICATION : 
+  # TITULAIRE DE L'APPLICATION : 
  - DESTER ALEXANDRE 
 
 
